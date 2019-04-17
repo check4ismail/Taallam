@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutLetter"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/textAra"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"
+
+            android:text="@string/title_ara_letter"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textEng"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textAra"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            android:text="@string/title_eng_letter"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <ImageView
+            android:id="@+id/soundIcon"
+            android:src="@mipmap/sound_icon"
+            android:layout_below="@+id/textEng"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#b2b2b2"
+
+            android:clickable="true"
+            android:onClick="onClickIcon"
+            />
+
+        <TextView
+            android:id="@+id/txtLtr1"
+            android:gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textEng"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="ر"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#b2b2b2"
+
+            android:clickable="true"
+            android:onClick="onClick"/>
+
+
+        <TextView
+            android:id="@+id/txtLtr2"
+            android:gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtLtr1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="م"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#b2b2b2"
+
+            android:clickable="true"
+            android:onClick="onClick"/>
+
+
+        <TextView
+            android:id="@+id/txtLtr3"
+            android:gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtLtr2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="ب"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:background="#b2b2b2"
+
+            android:clickable="true"
+            android:onClick="onClick" />
+
+
+        <TextView
+            android:id="@+id/txtLtr4"
+            android:gravity="center"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtLtr3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="س"
+            android:textSize="40dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:background="#b2b2b2"
+
+            android:clickable="true"
+            android:onClick="onClick" />
+
+        <TextView
+            android:id="@+id/txtQuesLtr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtLtr4"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.ismailelmaliki.ta3lam.MainActivity">
+
+        <TextView
+            android:id="@+id/textAra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+
+            android:text="@string/title_ara"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/textEng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textAra"
+
+            android:text="@string/title_eng"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+        <Button
+            android:id="@+id/ltrButton"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textEng"
+            android:layout_centerHorizontal="true"
+
+            android:textSize="25dp"
+            android:textAllCaps="false"
+            android:text="@string/btn1"
+            android:textColor="#000000"
+            android:onClick="letterClick"/>
+
+        <Button
+            android:id="@+id/wordButton"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/ltrButton"
+            android:layout_alignStart="@+id/ltrButton"
+
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:text="@string/btn2"
+            android:textColor="#000000"
+            android:onClick="wordClick"/>
+
+        <Button
+            android:id="@+id/sentenceButton"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/wordButton"
+            android:layout_alignStart="@+id/ltrButton"
+
+            android:text="@string/btn3"
+            android:textAllCaps="false"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:onClick="sentenceClick"/>
+
+    </RelativeLayout>
+
+</ScrollView>

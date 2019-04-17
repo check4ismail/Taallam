@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textAra"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+
+            android:text="@string/title_ara_sentence"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textEng"
+            android:gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textAra"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+
+            android:text="@string/title_eng_sentence"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/sentEng"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/textEng"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+
+            android:text="'This is a sentence in English'"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+
+        <TextView
+            android:id="@+id/choice1"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/sentEng"
+            android:layout_marginTop="20dp"
+
+            android:text="هذه جملة باللغة العربية"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="#b2b2b2"
+
+            android:clickable="true"
+            android:onClick="onClick"/>
+
+
+        <TextView
+            android:id="@+id/choice2"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/choice1"
+            android:layout_marginTop="20dp"
+
+            android:text="هذه جملة باللغة العربية"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="#b2b2b2"
+
+            android:clickable="true"
+            android:onClick="onClick"/>
+
+
+        <TextView
+            android:id="@+id/choice3"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/choice2"
+            android:layout_marginTop="20dp"
+
+            android:text="هذه جملة باللغة العربية"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="#b2b2b2"
+
+            android:clickable="true"
+            android:onClick="onClick"/>
+
+
+        <TextView
+            android:id="@+id/choice4"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_below="@+id/choice3"
+            android:layout_marginTop="20dp"
+
+            android:text="هذه جملة باللغة العربية"
+            android:textSize="30dp"
+            android:textColor="#000000"
+            android:background="#b2b2b2"
+
+            android:clickable="true"
+            android:onClick="onClick"/>
+
+        <TextView
+            android:id="@+id/txtQuesSentence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/choice4"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+</ScrollView>

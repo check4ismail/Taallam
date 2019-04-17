@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Taallam</string>
+    <string name="title_eng">Select a learning activity</string>
+    <string name="title_ara">آخْتَار وَحْدَة تَعَلَّم</string>
+    <string name="btn1">Letters\n--------------\nحُرُوف</string>
+    <string name="btn2">Words\n--------------\nكَلِمَات</string>
+    <string name="btn3">Sentences\n--------------\nجُمْلَاَت</string>
+
+    <string name="title_eng_letter">Choose the correct letter that corresponds to the recording</string>
+    <string name="title_ara_letter">آخْتَار الحَرْف الصَّحِيح الَّذِي يَتَطَابِق تَسْجِيل الصَّوْت.</string>
+
+    <string name="title_eng_word">Choose the correct word that corresponds to the photo</string>
+    <string name="title_ara_word">آخْتَار الكَلِمَة الصَّحِيح الَّذِي يَتَطَابِق الصُّورَة</string>
+
+    <string name="title_eng_sentence">Choose the correct Arabic sentence that corresponds to the English sentence below</string>
+    <string name="title_ara_sentence">اخْتَار الجُمْلَة العَرَبِية الصَّحِيح الَّذِي يَتَطَابِق الجُمْلَة الإِنْجِلِيزِيَّة تَحْت.</string>
+
+</resources>

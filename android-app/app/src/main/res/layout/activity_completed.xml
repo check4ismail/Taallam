@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/layoutCompleted"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/answerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#000000"/>
+
+        <Button
+            android:text="Continue"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:id="@+id/continueButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/answerText"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="Start Over"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:id="@+id/startOverButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/continueButton"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+
+            android:onClick="onClick"/>
+
+        <Button
+            android:text="Main Menu"
+            android:textSize="20dp"
+            android:id="@+id/mainMenuButton"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/startOverButton"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+
+            android:onClick="onClick"/>
+
+    </RelativeLayout>
+
+</ScrollView>
